@@ -100,7 +100,7 @@ const getServices = (t: (key: string) => string) => [
     iconColor: "text-emerald-600",
     bgColor: "bg-emerald-600",
     image:
-      "https://images.unsplash.com/photo-1569163139642-de5ada2adf0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
+      "https://unsplash.com/photos/low-angle-view-of-a-green-forest-with-co2-reduction-icon-co2-reduction-concept-for-environment-global-warming-sustainable-development-and-renewable-energy-green-business-sKDmx08mKTo",
     features: [
       t("services.carbon.feature1"),
       t("services.carbon.feature2"),
@@ -118,13 +118,13 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-background">
       <main className="pt-16">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-primary to-primary/80 text-white py-20">
+        <section className="bg-gradient-to-r from-primary/10 to-primary/5 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
                 {t("services.title")}
               </h1>
-              <p className="text-xl md:text-2xl max-w-3xl mx-auto">
+              <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-700">
                 {t("services.subtitle")}
               </p>
             </div>

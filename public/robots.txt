@@ -1,0 +1,28 @@
+# Robots.txt for Future Enerji
+# https://future-enerji.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /api/
+
+# Allow all CSS, JS, and image files
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+Allow: /*.ico$
+
+# Sitemap location
+Sitemap: https://future-enerji.com/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1 

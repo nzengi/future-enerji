@@ -61,13 +61,13 @@ export default function EnvironmentPolicyPage() {
     <div className="min-h-screen bg-background">
       <main className="pt-16">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-green-600 to-green-500 text-white py-20">
+        <section className="bg-gradient-to-r from-green-50 to-green-100 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
                 {t("environment.hero.title")}
               </h1>
-              <p className="text-xl md:text-2xl max-w-3xl mx-auto">
+              <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-700">
                 {t("environment.hero.desc")}
               </p>
             </div>

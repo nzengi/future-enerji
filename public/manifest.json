@@ -1,0 +1,30 @@
+{
+    "name": "Future Enerji - Geleceğin Enerji Çözümleri",
+    "short_name": "Future Enerji",
+    "description": "Sürdürülebilir enerji çözümleri ile geleceği şekillendiriyoruz. Güneş enerjisi, rüzgar enerjisi ve yenilenebilir enerji teknolojileri.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#059669",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        },
+        {
+            "src": "/favicon.svg",
+            "sizes": "32x32",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "business",
+        "productivity",
+        "utilities"
+    ],
+    "lang": "tr",
+    "dir": "ltr"
+}

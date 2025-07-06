@@ -88,13 +88,13 @@ export default function SubsidiariesPage() {
     <div className="min-h-screen bg-background">
       <main className="pt-16">
         {/* Hero Section */}
-        <section className="bg-gradient-to-r from-primary to-primary/80 text-white py-20">
+        <section className="bg-gradient-to-r from-primary/10 to-primary/5 py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
                 {t("subsidiaries.hero.title")}
               </h1>
-              <p className="text-xl md:text-2xl max-w-3xl mx-auto">
+              <p className="text-xl md:text-2xl max-w-3xl mx-auto text-gray-700">
                 {t("subsidiaries.hero.desc")}
               </p>
             </div>
