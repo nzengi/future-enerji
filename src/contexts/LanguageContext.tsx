@@ -801,6 +801,103 @@ const translations: Record<Language, Record<string, string>> = {
     "common.contact_us": "Bize Ulaşın",
     "common.view_all": "Tümünü Gör",
     "common.back_to_top": "Yukarı Dön",
+
+    // Homepage Sections
+    "home.services.title": "Hizmetlerimiz",
+    "home.services.subtitle":
+      "Hangi alanlarda çalıştığımızı güçlü ve açık gösteriyoruz.",
+    "home.services.epc.title": "EPC Yönetimi & Müteahhitlik",
+    "home.services.epc.desc":
+      "Tasarım aşamasından uygulamaya, anahtar teslim enerji projelerini hassasiyet, güvenlik ve maliyet etkinliğiyle sunuyoruz.",
+    "home.services.renewable.title": "Yenilenebilir Enerji",
+    "home.services.renewable.desc":
+      "Güneş, rüzgar ve hidro ile düşük karbonlu bir gelecek için sürdürülebilir enerji çözümleri üretiyoruz.",
+    "home.services.transmission.title": "Güç İletimi",
+    "home.services.transmission.desc":
+      "Modern şebekeler için sağlam HVAC & HVDC altyapısıyla kesintisiz enerji akışı sağlıyoruz.",
+    "home.services.aggregation.title": "Enerji Toplama",
+    "home.services.aggregation.desc":
+      "Dijital dengeleme ve talep tahminiyle üretici ve tüketiciler için akıllı portföy optimizasyonu.",
+    "home.services.trading.title": "Enerji Ticareti",
+    "home.services.trading.desc":
+      "Esnek tedarik sözleşmeleri, riskten korunma ve piyasa odaklı enerji çözümleriyle işletmeleri güçlendiriyoruz.",
+    "home.services.carbon.title": "Karbon Ticareti",
+    "home.services.carbon.desc":
+      "Yenilikçi karbon ofset ve sürdürülebilirlik stratejileriyle emisyonları ekonomik değere dönüştürüyoruz.",
+    "home.services.learn_more": "Daha fazla bilgi",
+
+    "home.why.title": "Neden İleri Enerji?",
+    "home.why.regional.title": "Bölgesel Uzmanlık",
+    "home.why.regional.desc":
+      "Türkiye'nin enerji piyasasına ve sınır ötesi yatırım fırsatlarına derinlemesine bakış.",
+    "home.why.synergies.title": "Sektör Sinerjileri",
+    "home.why.synergies.desc":
+      "Çoklu sektör bilgisiyle entegre ve yüksek etkili çözümler üretme.",
+    "home.why.sustainable.title": "Sürdürülebilir Etki",
+    "home.why.sustainable.desc":
+      "ESG uyumlu yatırımlar ve çevresel sorumluluk taahhüdü.",
+    "home.why.trusted.title": "Güvenilir İlişkiler",
+    "home.why.trusted.desc":
+      "Küresel ortaklar ve kamu kurumlarıyla uzun vadeli iş birliği.",
+    "home.why.leadership.title": "Kanıtlanmış Liderlik",
+    "home.why.leadership.desc":
+      "Büyük ölçekli altyapı projelerinde deneyimli ekip.",
+
+    "home.sectors.title": "Hizmet Verilen Sektörler",
+    "home.sectors.power.title": "Güç Üretimi",
+    "home.sectors.power.desc":
+      "Endüstriyel ve ticari ihtiyaçlar için ileri enerji üretimi.",
+    "home.sectors.transmission.title": "Güç İletimi",
+    "home.sectors.transmission.desc":
+      "Bölgesel ve ulusal enerji dağıtımı için güvenilir altyapı.",
+    "home.sectors.renewable.title": "Yenilenebilir Enerji",
+    "home.sectors.renewable.desc":
+      "Sürdürülebilir gelecek için akıllı yeşil enerji sistemleri.",
+    "home.sectors.industrial.title": "Endüstriyel Tesisler",
+    "home.sectors.industrial.desc":
+      "Petrol & gaz ve ağır sanayi için entegre enerji çözümleri.",
+    "home.sectors.datacenter.title": "Veri Merkezi & BT Çözümleri",
+    "home.sectors.datacenter.desc":
+      "Dijital altyapı için enerji güvenilirliği ve ölçeklenebilirlik.",
+
+    "home.references.title": "Stratejik Projeler & Referanslar",
+    "home.references.tender.title": "750 MW Rüzgar İhalesi",
+    "home.references.tender.desc":
+      "İki büyük ulusal projede 2. sırada yer alarak şebekeye temiz rüzgar enerjisi sağladık.",
+    "home.references.jv.title": "Türk-Japon Ortaklığı",
+    "home.references.jv.desc":
+      "Gaz türbinleri ve CCPP'lerde küresel sanayi liderleriyle stratejik ortaklık.",
+    "home.references.transition.title": "Enerji Dönüşüm Projeleri",
+    "home.references.transition.desc":
+      "Yenilenebilir ve güç iletiminde anahtar teslim çözümler.",
+
+    "home.investment.title": "Yatırım Temalarımız",
+    "home.investment.utility.title": "Utility Ölçekli Yenilenebilirler",
+    "home.investment.utility.desc":
+      "Bölgeleri sürdürülebilir şekilde besleyen güneş, rüzgar ve hidro projeleri.",
+    "home.investment.battery.title": "Batarya & Şebeke Çözümleri",
+    "home.investment.battery.desc":
+      "Modern enerji sistemleri için akıllı depolama ve şebeke teknolojileri.",
+    "home.investment.ppa.title": "Kurumsal GES Anlaşmaları",
+    "home.investment.ppa.desc":
+      "Endüstriyel müşteriler için doğrudan temiz enerji tedarik sözleşmeleri.",
+    "home.investment.hydrogen.title": "Yeşil Hidrojen & Açık Deniz Rüzgarı",
+    "home.investment.hydrogen.desc":
+      "Enerji dönüşümünü hızlandıran yeni nesil teknolojiler.",
+    "home.investment.esg.title": "ESG & Net Sıfır Uyum",
+    "home.investment.esg.desc":
+      "Küresel çevre ve sosyal standartlara uygun projeler.",
+
+    // Homepage Contact Section
+    "home.contact.title": "İletişime Geçin",
+    "home.contact.subtitle": "Genel Merkez",
+    "home.contact.address":
+      "Eski Büyükdere Cad. Maslak No:1\nSarıyer/İSTANBUL TÜRKİYE\nGelişmiş Enerji Çözümleri Merkezi",
+    "home.contact.phone":
+      "+90 212 286 43 84\nİş Saatleri: 09:00 - 18:00 (GMT+3)",
+    "home.contact.email":
+      "info@futureenerji.com\nGenellikle 24 saat içinde yanıtlıyoruz",
+    "home.contact.map": "Google Haritalar'da Gör",
   },
   en: {
     // Navigation
@@ -1413,13 +1510,13 @@ const translations: Record<Language, Record<string, string>> = {
     "contact.get_in_touch": "Get In Touch",
     "contact.headquarters.title": "Headquarters",
     "contact.headquarters.desc":
-      "Eski Büyükdere Cad. Maslak No:1\nSarıyer/İSTANBUL TÜRKİYE\nAdvanced Energy Solutions Hub",
+      "Eski Büyükdere Cad. Maslak No:1\nSarıyer/ISTANBUL TURKEY\nAdvanced Energy Solutions Center",
     "contact.phone.title": "Phone",
     "contact.phone.desc":
-      "+90 212 286 43 84\nBusiness Hours: 9:00 AM - 6:00 PM (GMT+3)",
+      "+90 212 286 43 84\nBusiness Hours: 09:00 - 18:00 (GMT+3)",
     "contact.email.title": "Email",
     "contact.email.desc":
-      "info@futureenerji.com\nWe typically respond within 24 hours",
+      "info@futureenerji.com\nWe usually respond within 24 hours",
     "contact.linkedin.title": "LinkedIn",
     "contact.linkedin.desc":
       "Connect with us on LinkedIn for updates\nand industry insights",
@@ -1476,5 +1573,102 @@ const translations: Record<Language, Record<string, string>> = {
     "common.contact_us": "Contact Us",
     "common.view_all": "View All",
     "common.back_to_top": "Back to Top",
+
+    // Homepage Sections
+    "home.services.title": "Our Services",
+    "home.services.subtitle":
+      "Showcasing our areas of expertise clearly and powerfully.",
+    "home.services.epc.title": "EPC Management & Contracting",
+    "home.services.epc.desc":
+      "From design to execution, we deliver turnkey energy projects with precision, safety, and cost-efficiency.",
+    "home.services.renewable.title": "Renewable Energy",
+    "home.services.renewable.desc":
+      "Harnessing solar, wind, and hydro to build a low-carbon future with sustainable energy solutions.",
+    "home.services.transmission.title": "Power Transmission",
+    "home.services.transmission.desc":
+      "Ensuring seamless power flow with robust HVAC & HVDC infrastructure for modern grids.",
+    "home.services.aggregation.title": "Energy Aggregation",
+    "home.services.aggregation.desc":
+      "Smart portfolio optimization for producers and consumers through digital balancing and demand forecasting.",
+    "home.services.trading.title": "Energy Trading",
+    "home.services.trading.desc":
+      "Empowering businesses with flexible supply contracts, risk hedging, and market-driven energy solutions.",
+    "home.services.carbon.title": "Carbon Trading",
+    "home.services.carbon.desc":
+      "Turning emissions into economic value via innovative carbon offset and sustainability strategies.",
+    "home.services.learn_more": "Learn more",
+
+    "home.why.title": "Why İleri Enerji?",
+    "home.why.regional.title": "Regional Expertise",
+    "home.why.regional.desc":
+      "Deep insight into Türkiye's energy landscape and cross-border investment opportunities.",
+    "home.why.synergies.title": "Sector Synergies",
+    "home.why.synergies.desc":
+      "Multi-industry know-how to create integrated and high-impact solutions.",
+    "home.why.sustainable.title": "Sustainable Impact",
+    "home.why.sustainable.desc":
+      "Commitment to ESG-aligned investments and environmental responsibility.",
+    "home.why.trusted.title": "Trusted Relationships",
+    "home.why.trusted.desc":
+      "Long-term collaboration with global partners and public institutions.",
+    "home.why.leadership.title": "Proven Leadership",
+    "home.why.leadership.desc":
+      "Experienced team with a history of executing large-scale infrastructure projects.",
+
+    "home.sectors.title": "Sectors We Serve",
+    "home.sectors.power.title": "Power Generation",
+    "home.sectors.power.desc":
+      "Advanced energy generation for industrial and commercial needs.",
+    "home.sectors.transmission.title": "Power Transmission",
+    "home.sectors.transmission.desc":
+      "Reliable infrastructure for regional and national energy distribution.",
+    "home.sectors.renewable.title": "Renewable Energy",
+    "home.sectors.renewable.desc":
+      "Smart green energy systems tailored for a sustainable future.",
+    "home.sectors.industrial.title": "Industrial Facilities",
+    "home.sectors.industrial.desc":
+      "Integrated energy solutions for oil & gas and heavy industries.",
+    "home.sectors.datacenter.title": "Data Center & IT Solutions",
+    "home.sectors.datacenter.desc":
+      "Energy reliability and scalability for digital infrastructure.",
+
+    "home.references.title": "Strategic Projects & References",
+    "home.references.tender.title": "750 MW Wind Tender",
+    "home.references.tender.desc":
+      "Ranked 2nd in two major national projects, delivering clean wind energy to the grid.",
+    "home.references.jv.title": "Turkish-Japanese Joint Venture",
+    "home.references.jv.desc":
+      "Strategic partnership with top global industrial players in gas turbines & CCPPs.",
+    "home.references.transition.title": "Energy Transition Projects",
+    "home.references.transition.desc":
+      "Successful execution of turnkey solutions in renewables and power transmission.",
+
+    "home.investment.title": "Investment Focus",
+    "home.investment.utility.title": "Utility-Scale Renewables",
+    "home.investment.utility.desc":
+      "Solar, wind, and hydroelectric projects that power regions sustainably.",
+    "home.investment.battery.title": "Battery & Grid Solutions",
+    "home.investment.battery.desc":
+      "Smart storage and grid technologies for modern energy systems.",
+    "home.investment.ppa.title": "Corporate PPAs",
+    "home.investment.ppa.desc":
+      "Direct clean energy supply contracts for industrial clients.",
+    "home.investment.hydrogen.title": "Green Hydrogen & Offshore Wind",
+    "home.investment.hydrogen.desc":
+      "Next-gen technologies driving the energy revolution.",
+    "home.investment.esg.title": "ESG & Net Zero Alignment",
+    "home.investment.esg.desc":
+      "Projects that meet global environmental and social standards.",
+
+    // Homepage Contact Section
+    "home.contact.title": "Contact Us",
+    "home.contact.subtitle": "Headquarters",
+    "home.contact.address":
+      "Eski Büyükdere Cad. Maslak No:1\nSarıyer/ISTANBUL TURKEY\nAdvanced Energy Solutions Center",
+    "home.contact.phone":
+      "+90 212 286 43 84\nBusiness Hours: 09:00 - 18:00 (GMT+3)",
+    "home.contact.email":
+      "info@futureenerji.com\nWe usually respond within 24 hours",
+    "home.contact.map": "View on Google Maps",
   },
 };

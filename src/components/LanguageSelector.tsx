@@ -17,7 +17,7 @@ export default function LanguageSelector() {
         className="text-sm font-medium"
       >
         {language === "tr" ? "TR" : "EN"}
-      </Button>
+        </Button>
     </div>
   );
 }

@@ -5,15 +5,11 @@ import Navigation from "@/components/Navigation";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import Footer from "@/components/Footer";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const clashGrotesk = localFont({
+  src: "./fonts/ClashGrotesk-Variable.woff2",
+  variable: "--font-clash-grotesk",
+  weight: "200 700",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -21,14 +17,23 @@ export const metadata: Metadata = {
     default: "Future Enerji - Geleceğin Enerji Çözümleri",
     template: "%s | Future Enerji",
   },
-  description: "Sürdürülebilir enerji çözümleri ile geleceği şekillendiriyoruz. Güneş enerjisi, rüzgar enerjisi ve yenilenebilir enerji teknolojileri.",
-  keywords: ["enerji", "güneş enerjisi", "rüzgar enerjisi", "yenilenebilir enerji", "sürdürülebilir", "teknoloji"],
+  description:
+    "Sürdürülebilir enerji çözümleri ile geleceği şekillendiriyoruz. Güneş enerjisi, rüzgar enerjisi ve yenilenebilir enerji teknolojileri.",
+  keywords: [
+    "enerji",
+    "güneş enerjisi",
+    "rüzgar enerjisi",
+    "yenilenebilir enerji",
+    "sürdürülebilir",
+    "teknoloji",
+  ],
   authors: [{ name: "Future Enerji" }],
   creator: "Future Enerji",
   publisher: "Future Enerji",
   openGraph: {
     title: "Future Enerji - Geleceğin Enerji Çözümleri",
-    description: "Sürdürülebilir enerji çözümleri ile geleceği şekillendiriyoruz.",
+    description:
+      "Sürdürülebilir enerji çözümleri ile geleceği şekillendiriyoruz.",
     url: "https://future-enerji.com",
     siteName: "Future Enerji",
     locale: "tr_TR",
@@ -37,7 +42,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Future Enerji - Geleceğin Enerji Çözümleri",
-    description: "Sürdürülebilir enerji çözümleri ile geleceği şekillendiriyoruz.",
+    description:
+      "Sürdürülebilir enerji çözümleri ile geleceği şekillendiriyoruz.",
     creator: "@future_enerji",
   },
   robots: {
@@ -58,13 +64,11 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="alternate icon" href="/favicon.svg" />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}>
+      <body className={`${clashGrotesk.variable} font-sans antialiased`}>
         <LanguageProvider>
-          <div className="min-h-screen flex flex-col">
+          <div className="flex min-h-screen flex-col">
             <Navigation />
-            <main className="flex-1">
-              {children}
-            </main>
+            <main className="flex-1">{children}</main>
             <Footer />
           </div>
         </LanguageProvider>
